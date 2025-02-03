@@ -25,6 +25,9 @@ DELAY 750
 STRING cd %temp%
 DELAY 500
 ENTER
+STRING set ran=%random%
+DELAY 500
+ENTER
 STRING mkdir {filesdirremovedot}_dir
 DELAY 500
 ENTER
