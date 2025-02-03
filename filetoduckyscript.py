@@ -28,10 +28,10 @@ ENTER
 STRING set ran=%random%
 DELAY 500
 ENTER
-STRING mkdir {filesdirremovedot}_dir
+STRING mkdir {filesdirremovedot}_dir_%ran%
 DELAY 500
 ENTER
-STRING cd {filesdirremovedot}_dir
+STRING cd {filesdirremovedot}_dir_%ran%
 DELAY 500
 ENTER
 STRING echo hello>{filesdirremovedot}_base64
