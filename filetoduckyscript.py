@@ -52,10 +52,8 @@ DELAY 300\n'''
             ducky.write(f"STRING echo {chunk}>{filesdirremovedot}_base64\nDELAY {timeout}\nENTER\n")
     ducky.write(f"STRING echo -----END CERTIFICATE----->{filesdirremovedot}_base64\nENTER\n")
     duckyscriptend = f'''DELAY 10000
-CTRL s
+
 DELAY {enddelay}
-ALT F4
-DELAY 750
 STRING certutil -decode {filesdirremovedot}_base64 {file} && start {file} && exit
 DELAY 500
 ENTER'''
