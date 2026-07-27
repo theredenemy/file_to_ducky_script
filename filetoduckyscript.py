@@ -65,5 +65,5 @@ ENTER'''
 
 
 if __name__ == "__main__":
-    make_ducky_script("E:\\Files\\youareanidiot_v2.2.0.exe")
+    make_ducky_script("test.txt")
 
