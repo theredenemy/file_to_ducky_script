@@ -1,10 +1,10 @@
-import os
 
+import os
+import base64
+import shutil
 def make_ducky_script(file):
     
-    import os
-    import base64
-    import shutil
+    
     basename = os.path.basename(file)
     filesdirremovedot = basename.replace('.', '')
     filesdir = f"{filesdirremovedot}_files"
